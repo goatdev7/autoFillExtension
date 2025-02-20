@@ -14,7 +14,9 @@ This Chrome extension simplifies the process of filling out repetitive fields on
 ## Installation
 
 - Clone the repository to your local machine.
-    ```git clone <repository_url>```
+    
+    ```git clone https://github.com/goatdev7/autoFillExtension```
+    
 - Open Chrome and navigate to chrome://extensions/.
 - Enable Developer mode.
 - Click "Load unpacked" and select the cloned repository folder.
