@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "AutoFill",
+    "version": "1.0",
+    "description": "Automatically fills job application forms with your saved details.",
+    "permissions": ["storage"],
+    "options_page": "options.html",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
